@@ -1,6 +1,6 @@
 # grab_traffic_prediction_challenge
 
-## The code first add a ‘hypothetical’ time index column for the convenience of modelling and add lat, lon column as well, which returns a dataframe(df1). Then it adds the missing timestamps for all 1329 geohash zones and restructure the data to a new table with rows of different timestamps and columns of different zones(df35). This will be the source of the input array feeding into the LSTM model. 
+#### The code first add a ‘hypothetical’ time index column for the convenience of modelling and add lat, lon column as well, which returns a dataframe(df1). Then it adds the missing timestamps for all 1329 geohash zones and restructure the data to a new table with rows of different timestamps and columns of different zones(df35). This will be the source of the input array feeding into the LSTM model. 
 
 Since there are so many geohash zones, simply predicting one unified demand or predicting demand for each one of them are both unreasonable. It is necessary to separate and group zones. 
 
